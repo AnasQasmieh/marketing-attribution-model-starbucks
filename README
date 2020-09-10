@@ -1,0 +1,27 @@
+The project includes the following directories:
+- "data" directory: 
+	- contains all raw data as provided in the project definition
+- "starbucks_data" directory: 
+	- contains processed and ready dataset (split into train, validation, test sets).
+
+
+
+The IPython notebooks are summarized as follows:
+------------------------------------------------
+
+- Starbucks_Capstone_notebook_1_Analysis.ipynb:
+	- Provides an overview and analysis of the provided data in the "Data" directory
+
+
+- Starbucks_Capstone_notebook_2_Processing.ipynb
+	- Perform all data processing to prepare the final dataset.
+	- WARNING: fully running this notebook will create a new train/validation/test split of the data that overwrites the provided dataset.
+
+
+- Starbucks_Capstone_notebook_3_Modeling.ipynb
+	- Contains the best tuned Linear Learner Model
+
+
+- Starbucks_Capstone_notebook_3_Modeling+Tuning.ipynb
+	- Contains a HyperParameter Tuner job and a Linear Learner model
+	- Results achieved are worse than results in the Modeling notebook
